@@ -1,6 +1,5 @@
 package com.fileData;
 
-import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,22 +21,9 @@ public class DisplayLockedMeFileData {
 		
 	//Display Menu
 	
+	  displayAllMenuOption(FOLDER_PATH);
 	
 	
-	// Create the files
-
-		 createFiles(FOLDER_PATH);
-
-		// Display all files
-
-		// displayFileNames(FOLDER_PATH);
-
-		// Delete file
-
-		//deleteFile(FOLDER_PATH);
-		
-		//Search a file
-		 //searchFile(FOLDER_PATH);
 	System.out.println("________________________________________________________________________________________");
 	System.out.println("                                                                 Developed By RABIN"+"\n");
 	System.out.println("                                                                 Date:" +new SimpleDateFormat("dd-MMM-yyyy").format(new Date())+"\n");
@@ -46,6 +32,26 @@ public class DisplayLockedMeFileData {
 	}
 
 	
+	private static void displayAllMenuOption(String folderPath) {
+		
+		        // Create the files
+
+				 createFiles(FOLDER_PATH);
+
+				// Display all files
+
+				// displayFileNames(FOLDER_PATH);
+
+				// Delete file
+
+				//deleteFile(FOLDER_PATH);
+				
+				//Search a file
+				 //searchFile(FOLDER_PATH);
+		
+	}
+
+
 	private static void createFiles(String folderPath) {
 
 		Scanner scanObj = new Scanner(System.in);
