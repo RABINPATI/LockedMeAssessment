@@ -4,7 +4,7 @@ public class LockedMeMain {
 
 	// Folder Path for file to access data
 
-	static final String FOLDER_PATH = "D:\\Project\\Angular8-SpringBoot-CRUD-Tutorial\\Spring\\FSDProject\\LockedMeFileData";
+	static final String FOLDER_PATH = "D:\\Project\\Angular8-SpringBoot-CRUD-Tutorial\\Spring\\LockedMeAssessment\\LockedMeFileData";
 
 	public static void main(String[] args) {
 
