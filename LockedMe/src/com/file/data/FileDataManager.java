@@ -1,4 +1,4 @@
-package com.fileData;
+package com.file.data;
 
 import java.io.File;
 import java.io.FileWriter;

@@ -1,10 +1,10 @@
-package com.fileData;
+package com.file.data;
 
 public class LockedMeMain {
 
 	// Folder Path for file to access data
 
-	static final String FOLDER_PATH = "D:\\Project\\Angular8-SpringBoot-CRUD-Tutorial\\Spring\\LockedMeAssessment\\LockedMeFileData";
+	static final String FOLDER_PATH = "D:\\Project\\FSD\\Phase 1\\LockedMeAssessment\\LockedMeFileData";
 
 	public static void main(String[] args) {
 

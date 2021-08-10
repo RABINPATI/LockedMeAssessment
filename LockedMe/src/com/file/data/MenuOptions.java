@@ -1,4 +1,4 @@
-package com.fileData;
+package com.file.data;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
