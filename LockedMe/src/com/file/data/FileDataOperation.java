@@ -7,6 +7,11 @@ import java.util.Scanner;
 
 public class FileDataOperation {
 	
+	/**
+	 * @param folderPath
+	 * Add file
+	 */
+	
 	public static void createFiles(String folderPath) {
 
 		Scanner scanObj = new Scanner(System.in);
@@ -45,27 +50,31 @@ public class FileDataOperation {
 		}
 
 	}
+	/**
+	 * @param folderPath
+	 * Display Allfiles
+	 */
 
 	public static void displayFileNames(String folderPath) {
 
 		List<String> fileNamesList = FileDataManager.getAllFiles(folderPath);
 
-// shorting the file in ascending order
+        // shorting the file in ascending order
 
 		Collections.sort(fileNamesList);
 
 		if (!fileNamesList.isEmpty()) {
 			fileNamesList.forEach(fileName -> {
 				System.out.println(fileName);
-
 			});
 		} else {
-
 			System.out.println("Files not found in directory");
 		}
-
 	}
-
+   /**
+    * @param folderPath
+    * Search File
+    */
 	public static void searchFile(String folderPath) {
 
 		Scanner scanObj = new Scanner(System.in);
@@ -91,7 +100,10 @@ public class FileDataOperation {
 		}
 
 	}
-
+   /**
+    * @param folderPath
+    * Delete File
+    */
 	public static void deleteFile(String folderPath) {
 
 		Scanner scanObj = new Scanner(System.in);

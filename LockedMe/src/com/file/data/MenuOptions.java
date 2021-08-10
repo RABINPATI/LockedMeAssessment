@@ -4,7 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-
 public class MenuOptions {
 
 	/**
@@ -13,11 +12,9 @@ public class MenuOptions {
 
 	public static void displayWelcomeHeaderNote() {
 
-		System.out.println(
-				"________________________________________________________________________________________" + "\n");
+		System.out.println("________________________________________________________________________________________" + "\n");
 		System.out.println("                       Application Name: LockedMe.com" + "\n");
 		System.out.println("________________________________________________________________________________________");
-
 	}
 
 	/**
