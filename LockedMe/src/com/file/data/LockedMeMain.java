@@ -16,10 +16,6 @@ public class LockedMeMain {
 
 		MenuOptions.menuProcessOperations(FOLDER_PATH);
 
-		// Display Developer note with current date
-
-		MenuOptions.displayWelcomeFooterNote();
-
 	}
 
 }

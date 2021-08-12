@@ -26,7 +26,7 @@ public class MenuOptions {
 		System.out
 				.println("                                                                 Developed By RABIN" + "\n");
 		System.out.println("                                                                 Date:"
-				+ new SimpleDateFormat("dd-MMM-yyyy").format(new Date()) + "\n");
+				+ new SimpleDateFormat("dd-MMM-yyyy").format(new Date()));
 		System.out.println("________________________________________________________________________________________");
 
 	}
