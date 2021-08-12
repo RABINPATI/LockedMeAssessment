@@ -60,7 +60,12 @@ public class FileDataManager {
 		return filesInFolder;
 
 	}
-
+    /**
+     * 
+     * @param folderPath
+     * @param file_Name
+     * @return true/false based on search results.
+     */
 	public static boolean searchFile(String folderPath, String file_Name) {
 
 		List<String> filesInFolderList = getAllFiles(folderPath);
@@ -68,7 +73,6 @@ public class FileDataManager {
 		boolean isSerached = false;
 
 		for (String fileName : filesInFolderList)
-
 		{
 			// Check user input file name should match with directory file.
 			
@@ -81,10 +85,15 @@ public class FileDataManager {
 			} else {
 				isSerached = false;
 			}
-
 		}
 		return isSerached;
 	}
+	/**
+	 * 
+	 * @param folderPath
+	 * @param file_Name
+	 * @return true/false based on delete results.
+	 */
 
 	public static boolean deleteFile(String folderPath, String file_Name) {
 
@@ -95,7 +104,6 @@ public class FileDataManager {
 		boolean isDeleted = false;
 
 		for (String fileName : filesInFolderList)
-
 		{
 			// Check user input file name should match with directory file.
 			if (fileName.equals(file_Name)) {
@@ -113,5 +121,4 @@ public class FileDataManager {
 		}
 		return isDeleted;
 	}
-
 }

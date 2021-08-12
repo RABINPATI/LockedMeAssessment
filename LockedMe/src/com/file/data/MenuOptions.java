@@ -13,7 +13,7 @@ public class MenuOptions {
 	public static void displayWelcomeHeaderNote() {
 
 		System.out.println("________________________________________________________________________________________" + "\n");
-		System.out.println("                       Application Name: LockedMe.com" + "\n");
+		System.out.println("                       Application Name: LockedMe.com");
 		System.out.println("________________________________________________________________________________________");
 	}
 
@@ -24,7 +24,7 @@ public class MenuOptions {
 
 		System.out.println("________________________________________________________________________________________");
 		System.out
-				.println("                                                                 Developed By RABIN" + "\n");
+				.println("                                                                 Developed By RABIN");
 		System.out.println("                                                                 Date:"
 				+ new SimpleDateFormat("dd-MMM-yyyy").format(new Date()));
 		System.out.println("________________________________________________________________________________________");
@@ -99,7 +99,7 @@ public class MenuOptions {
 							System.out.println("Please select a valid option from above.");
 						}
 					} catch (Exception e) {
-						System.out.println(e.getClass().getName());
+						System.out.println("Please select a valid option from above.");
 						menuProcessOperations(folderPath);
 					} 
 				} while (running == true);		

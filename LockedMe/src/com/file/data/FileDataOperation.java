@@ -121,7 +121,7 @@ public class FileDataOperation {
 			if (isFileDeleted)
 				System.out.println(file_Name + " : deleted successfully");
 			else {
-				System.out.println(file_Name + " : not found in directory");
+				System.out.println(file_Name  + " not deleted , file not found in directory");
 			}
 			// Close the scanner object
 		} catch (Exception e) {
